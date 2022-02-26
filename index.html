@@ -6,10 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bank Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <h2>Welcome To My <br> BANK ACCOUNT</h2>
+<body class="bg-slate-100">
+    <header>
+        <h2 class="font-bold text-5xl text-center mt-40">Welcome To My <br>
+            <span class="text-blue-800 mt-8">BANK ACCOUNT</span>
+        </h2>
+    </header>
+    <main>
+        <section class=" h-2/4 w-2/4 bg-green-200 mx-auto mt-8">
+            <h3 class="font-bold text-2xl text-center text-cyan-800 py-4">Please login</h3>
+            <div class="px-16 py-12 ">
+                <form action="">
+                    <label class="font-normal text-2xl" for="email"> Email</label><br>
+                    <input class="w-3/4 border-2 border-stone-400" type="mail" placeholder="enter your mail"> <br>
+                    <label class="font-normal text-2xl" for="password"> Password</label><br>
+                    <input class="w-3/4 border-2 border-stone-400" type="mail" placeholder="enter your password">
+                </form>
+            </div>
+
+        </section>
+    </main>
+
 </body>
 
 </html>
