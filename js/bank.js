@@ -13,3 +13,8 @@ document.getElementById('login-button').addEventListener('click', function (e) {
     }
 
 })
+// calculation side
+document.getElementById("withdraw-button").addEventListener('click', function () {
+
+    console.log('you are so beautiful');
+})
